@@ -7,6 +7,9 @@ import { NumbersComponent } from './pages/numbers/numbers.component';
 import { NotcommonsComponent } from './pages/notcommons/notcommons.component';
 import { OrderComponent } from './pages/order/order.component';
 import { CommonComponent } from './pages/common/common.component';
+import { CapitalLetterPipe } from './pipes/capitalletters.pipe';
+import { FlyingPipe } from './pipes/flying.pipe';
+import { OrderPipe } from './pipes/order.pipe';
 
 
 
@@ -15,11 +18,14 @@ import { CommonComponent } from './pages/common/common.component';
     NumbersComponent,
     NotcommonsComponent,
     OrderComponent,
-    CommonComponent
+    CommonComponent,
+    CapitalLetterPipe,
+    FlyingPipe,
+    OrderPipe
   ],
   imports: [
     CommonModule,
-    PrimengModule
+    PrimengModule,
   ], exports: [
     NumbersComponent,
     NotcommonsComponent,
